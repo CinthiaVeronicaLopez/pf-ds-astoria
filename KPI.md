@@ -1,5 +1,5 @@
 
-![Logo](imagenes\LogoOptimus.jpg)
+![Logo](./imagenes/LogoOptimus.jpg)
 
 
 # KPIs📉📈

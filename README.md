@@ -1,4 +1,4 @@
-<img src="imagenes\Logo.PNG" width="120" height="82">
+<img src="images\Logo.PNG" width="120" height="82">
 
 **Consultora**
 
@@ -16,21 +16,19 @@ En este proyecto en particular, nos enfocamos en analizar la información recopi
 ---
 
 ## **Nuestra Propuesta para Optimus Travel** ✈ 🌎
-<img src="imagenes\propuesta.PNG" alt="Nuestro TEAM" width="720" height="360">
+<img src="images\propuesta.PNG" alt="Nuestro TEAM" width="720" height="360">
 
-_Nuestro proposito es proporcionar a la empresa de turismo estadounidense una evaluación exhaustiva del mercado para relocalizarse. Nuestro objetivo principal es analizar las oportunidades y desafíos en cada estado para respaldar la toma de decisiones informadas sobre la próxima ampliación de la empresa. A través de un análisis detallado, identificaremos las atracciones turísticas más populares, evaluaremos la demanda actual y futura, analizaremos la competencia  y proporcionaremos recomendaciones sólidas sobre la viabilidad y el potencial de éxito de la expansión. Nuestro objetivo final es brindar a la empresa una visión clara y estratégica para respaldar su crecimiento y maximizar su rentabilidad en el mercado de atracciones turísticas._
+_Nuestro propósito es proporcionar a la empresa de turismo estadounidense una evaluación exhaustiva del mercado para relocalizarse. Nuestro objetivo principal es analizar las oportunidades y desafíos en cada estado para respaldar la toma de decisiones informadas sobre la próxima ampliación de la empresa. A través de un análisis detallado, identificaremos las atracciones turísticas más populares, evaluaremos la demanda actual y futura, analizaremos la competencia  y proporcionaremos recomendaciones sólidas sobre la viabilidad y el potencial de éxito de la expansión. Nuestro objetivo final es brindar a la empresa una visión clara y estratégica para respaldar su crecimiento y maximizar su rentabilidad en el mercado de atracciones turísticas._
 
-<img src="imagenes\Equipo.PNG" alt="Nuestro TEAM" width="720" height="360">
+<img src="images\Equipo.PNG" alt="Nuestro TEAM" width="720" height="360">
 
 
 ---
 
 ## **¿Como lo haremos Posible?** 🔥🔥🔥
 
-**1-**_Metodologia de trabajo a traves de 
-Scrum ⇒ Metodologia Agil
-
-<img src="imagenes\Diagramadeflujo2.jpeg" alt="Nuestro TEAM" width="720" height="360">
+**1-** _Metodología de trabajo a traves de Scrum ⇒ Metodología Ágil_
+<img src="images\Diagramadeflujo2.jpeg" alt="Nuestro TEAM" width="720" height="360">
 
 
 **2-** _Extracción y transformación de datos con python usando las librerias Pandas y Numpy principalmente._
@@ -45,7 +43,7 @@ Scrum ⇒ Metodologia Agil
 
 ## **Estructura Tecnológica**
 
-<img src="imagenes\Tecnologias.PNG" alt="Nuestro TEAM" width="720" height="360">
+<img src="images\Tecnologias.jpg" alt="Nuestro TEAM" width="720" height="360">
 
 
 
@@ -66,7 +64,6 @@ Scrum ⇒ Metodologia Agil
 
 ## **Herramientas** 🛠
 
-Python, Google Colab, Google Cloud Storage, BigQuery, Vertex y Google Data Looker
-
+Python, Google Colab, Google Cloud Storage, BigQuery, Vertex y Power BI
 ---
 

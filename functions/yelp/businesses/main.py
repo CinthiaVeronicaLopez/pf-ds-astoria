@@ -70,7 +70,7 @@ def df_to_bq(df, destination_table, project_id):
 def main(request):
     # CONSTANTES
     GCP_PROJECT = os.environ.get("GCP_PROJECT")    
-    YELP_API_KEY = os.getenv("YELP_API_KEY")
+    YELP_API_KEY = os.environ.get("YELP_API_KEY")
     TABLE_ID = "businesses"
     DATASET_ID = "astoria"
 

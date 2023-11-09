@@ -9,4 +9,5 @@ gcloud functions deploy $YOUR_FUNCTION_NAME \
 --source=. \
 --entry-point=$ENTRY_POINT \
 --trigger-http \
+--env-vars-file .env.yaml \
 --memory 512MB

@@ -57,9 +57,9 @@ def normalize(json_response, table_id):
 
 # Guardar un data frame en GCS
 def df_to_bq(df, destination_table, project_id):
-    '''
+    """
     Guarda un dataframe de pandas en BigQuery
-    '''
+    """
     # convertir a string
     df = df.astype(str)
     # guardar en BigQuery
@@ -69,10 +69,10 @@ def df_to_bq(df, destination_table, project_id):
 @functions_framework.http
 def main(request):
     # CONSTANTES
-    GCP_PROJECT = os.environ.get('GCP_PROJECT')    
-    YELP_API_KEY = "rmsHuwsjtn_Ha50egThb_fa5t59327OHT7wpAP60K6NVN51YV0AzPjIMqo2udC_rgBYDwyFs4tOORZ1bV25TQTu2p_baVdkTnficuPPr2bQ1o9Xy2mgh7C9zItZIZXYx"#os.getenv("YELP_API_KEY")
+    GCP_PROJECT = os.environ.get("GCP_PROJECT")    
+    YELP_API_KEY = os.getenv("YELP_API_KEY")
     TABLE_ID = "businesses"
-    DATASET_ID = 'astoria'
+    DATASET_ID = "astoria"
 
     # Selecciono la categoría en Yelp que seo buscar y analizar
     category = "recreation"
@@ -88,6 +88,6 @@ def main(request):
     df_to_bq(df, destination_table, GCP_PROJECT)
 
     # Return an HTTP response
-    return 'OK'
+    return "OK"
 
 # [END functions]

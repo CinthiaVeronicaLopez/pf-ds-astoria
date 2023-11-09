@@ -1,4 +1,5 @@
 @REM CREAR ENTORNO VIRTUAL
+@REM Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 py -m venv env
 @REM ACTIVARLO
 .\env\Scripts\activate
@@ -10,6 +11,7 @@ py -m venv env
 @REM pip install pandas
 @REM pip install pandas-gbq
 @REM pip install pyarrow
+@REM pip install yelpapi
 @REM GUARDAR REQUERIMIENTOS
 @REM pip freeze > requirements.txt
 @REM INSTALAR REQUERIMIENTOS
